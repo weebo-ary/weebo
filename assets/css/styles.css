@@ -37,6 +37,15 @@ body {
     padding: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+    .txt {
+        font-size: 4vw;
+    }
+    .darkmode {
+        font-size: 3.5vw;
+    }
+}
+
 .screen__mac {
     width: 55rem;
     height: 35rem;
@@ -165,4 +174,16 @@ body {
 .img__me {
     width: 14rem;
 
+}
+
+@media screen and (max-width: 1200px) {
+    .img__txt {
+        font-size: 2vw;
+    }
+    .para__img {
+        font-size: 1.5vw;
+    }
+    .para__txt {
+        font-size: 2vw;
+    }
 }
